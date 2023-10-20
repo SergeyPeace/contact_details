@@ -12,6 +12,4 @@ const header = document.createElement('header');
 header.className = 'header';
 header.innerHTML = createdHeader('public/img/svg/logo.svg');
 
-
-
 export default header;
