@@ -3,7 +3,7 @@ import BASE_URL from "./BASE_URL.js";
 
 //Добавление header с фильтрацией
 (function addCustomerFilter(){
-    document.body.append(HeaderSite);
+    document.body.prepend(HeaderSite);
     let timer;
     HeaderSite.querySelector('input').addEventListener('input', (event)=>{
         clearTimeout(timer);
